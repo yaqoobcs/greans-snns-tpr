@@ -1,0 +1,28 @@
+; network structure: input_count output_count total_nodes
+3 1 7
+; input and output node functions
+0 A
+1 B
+2 C
+3 signal
+; the list of all connections: src dst weight
+5 4 -11.9245
+6 4 5.39331
+4 4 6.4161
+0 4 8.19762
+1 4 -12.7452
+2 4 -0.579585
+4 5 -10.8273
+5 5 -6.11747
+6 5 -4.69919
+0 5 -0.421491
+1 5 -0.515832
+2 5 6.65585
+4 6 -11.6093
+5 6 15.6467
+6 6 8.51033
+1 6 0.971964
+2 6 1.22366
+0 6 -6.35799
+4 3 -6.6212
+5 3 3.5032

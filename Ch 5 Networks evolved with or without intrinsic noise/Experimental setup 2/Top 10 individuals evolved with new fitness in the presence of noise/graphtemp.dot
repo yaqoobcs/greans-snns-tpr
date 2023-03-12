@@ -1,0 +1,108 @@
+digraph G {
+ratio=1;{
+	node [shape=plaintext]
+
+RU0 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+ <TR><TD><TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR>
+	<TD PORT="gene4" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">4</FONT></TD>
+ </TR></TABLE></TD></TR>
+
+ <TR><TD><FONT POINT-SIZE="25">
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR><TD>
+		OP0=-70.00000
+		</TD></TR></TABLE>
+ </FONT></TD></TR>
+
+ <TR><TD><TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR>
+	<TD PORT="gene5" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">5</FONT></TD>
+	<TD PORT="gene6" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">6</FONT></TD>
+ </TR></TABLE>
+
+</TD></TR></TABLE>>];
+
+RU1 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+ <TR><TD><TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR>
+	<TD PORT="gene7" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">7</FONT></TD>
+	<TD PORT="gene8" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">8</FONT></TD>
+	<TD PORT="gene9" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">9</FONT></TD>
+	<TD PORT="gene10" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">10</FONT></TD>
+	<TD PORT="gene11" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">11</FONT></TD>
+	<TD PORT="gene12" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">12</FONT></TD>
+	<TD PORT="gene13" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">13</FONT></TD>
+ </TR></TABLE></TD></TR>
+
+ <TR><TD><FONT POINT-SIZE="25">
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR><TD>
+		OP1=-70.00000
+		</TD></TR></TABLE>
+ </FONT></TD></TR>
+
+ <TR><TD><TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR>
+	<TD PORT="gene14" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">14</FONT></TD>
+	<TD PORT="gene15" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">15</FONT></TD>
+	<TD PORT="gene16" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">16</FONT></TD>
+ </TR></TABLE>
+
+</TD></TR></TABLE>>];
+
+RU2 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+ <TR><TD><TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR>
+	<TD PORT="gene17" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">17</FONT></TD>
+	<TD PORT="gene18" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">18</FONT></TD>
+	<TD PORT="gene19" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">19</FONT></TD>
+ </TR></TABLE></TD></TR>
+
+ <TR><TD><FONT POINT-SIZE="25">
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR><TD>
+		OP2=-70.00000
+		</TD></TR></TABLE>
+ </FONT></TD></TR>
+
+ <TR><TD><TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR>
+	<TD PORT="gene20" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">20</FONT></TD>
+	<TD PORT="gene21" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">21</FONT></TD>
+	<TD PORT="gene22" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">22</FONT></TD>
+ </TR></TABLE>
+
+</TD></TR></TABLE>>];
+
+  node [shape=ellipse, style=filled, fillcolor="#C0C0C0"]
+
+MFA0 [label=<<FONT POINT-SIZE="25">MFA0=-65.00</FONT><BR/><FONT POINT-SIZE="35">IN1</FONT>>];
+  node [shape=ellipse, style=filled, fillcolor="#C0C0C0"]
+
+MFA1 [label=<<FONT POINT-SIZE="25">MFA1=-65.00</FONT><BR/><FONT POINT-SIZE="35">IN2</FONT>>];
+  node [shape=ellipse, style=filled, fillcolor="#C0C0C0"]
+
+MFA2 [label=<<FONT POINT-SIZE="25">MFA2=-65.00</FONT><BR/><FONT POINT-SIZE="35">IN3</FONT>>];
+
+  node [shape=box, style=filled, fillcolor="#00FF00"]
+
+EFF0 [label=<<FONT POINT-SIZE="25">EFF0=-70.00</FONT><BR/><FONT POINT-SIZE="35">signal</FONT>>];
+
+RU0:s -> RU0:gene4:n [arrowhead=normal, weight=0.58245, style="setlinewidth(1),solid", color="#FF0000", labeldistance="1", fontsize=25, label="0.29"];
+RU1:s -> RU0:gene4:n [arrowhead=dot, weight=-11.04112, style="setlinewidth(5),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-5.52"];
+RU2:s -> RU0:gene4:n [arrowhead=dot, weight=-1.17300, style="setlinewidth(1),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-0.59"];
+RU0:s -> RU1:gene7:n [arrowhead=normal, weight=25.86731, style="setlinewidth(5),solid", color="#FF0000", labeldistance="1", fontsize=25, label="12.93"];
+RU1:s -> RU1:gene7:n [arrowhead=normal, weight=18.34812, style="setlinewidth(5),solid", color="#FF0000", labeldistance="1", fontsize=25, label="9.17"];
+RU2:s -> RU1:gene7:n [arrowhead=dot, weight=-33.63913, style="setlinewidth(5),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-16.82"];
+RU0:s -> RU2:gene17:n [arrowhead=dot, weight=-7.45541, style="setlinewidth(4),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-3.73"];
+RU1:s -> RU2:gene17:n [arrowhead=normal, weight=8.74873, style="setlinewidth(5),solid", color="#FF0000", labeldistance="1", fontsize=25, label="4.37"];
+RU2:s -> RU2:gene17:n [arrowhead=normal, weight=14.00035, style="setlinewidth(5),solid", color="#FF0000", labeldistance="1", fontsize=25, label="7.00"];
+
+MFA0 -> RU0:gene4:n [arrowhead=dot, weight=-0.27208, style="setlinewidth(1),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-0.14"];
+MFA2 -> RU0:gene4:n [arrowhead=normal, weight=8.11055, style="setlinewidth(5),solid", color="#FF0000", labeldistance="1", fontsize=25, label="4.06"];
+MFA0 -> RU1:gene8:n [arrowhead=dot, weight=-9.50999, style="setlinewidth(5),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-4.75"];
+MFA1 -> RU1:gene8:n [arrowhead=normal, weight=2.90265, style="setlinewidth(2),solid", color="#FF0000", labeldistance="1", fontsize=25, label="1.45"];
+MFA2 -> RU1:gene8:n [arrowhead=normal, weight=2.29695, style="setlinewidth(2),solid", color="#FF0000", labeldistance="1", fontsize=25, label="1.15"];
+MFA0 -> RU2:gene17:n [arrowhead=normal, weight=13.66835, style="setlinewidth(5),solid", color="#FF0000", labeldistance="1", fontsize=25, label="6.83"];
+MFA1 -> RU2:gene17:n [arrowhead=dot, weight=-25.70137, style="setlinewidth(5),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-12.85"];
+MFA2 -> RU2:gene17:n [arrowhead=dot, weight=-1.63895, style="setlinewidth(1),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-0.82"];
+RU0:s -> EFF0 [arrowhead=normal, weight=9.22423, style="setlinewidth(5),solid", color="#FF0000", labeldistance="1", fontsize=25, label="4.61"];
+RU1:s -> EFF0 [arrowhead=dot, weight=-1.61564, style="setlinewidth(1),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-0.81"];
+RU2:s -> EFF0 [arrowhead=dot, weight=-21.06132, style="setlinewidth(5),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-10.53"];
+}
+}
