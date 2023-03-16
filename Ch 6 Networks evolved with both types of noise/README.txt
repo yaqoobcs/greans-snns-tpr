@@ -1,3 +1,4 @@
+ # Ch 6 networks evolved in the presence of noise and variation 
 To load a network file run GreansInt_ReleaseUPX
 Select Genomes from the top menu
 From the drop-down list select "load and show individual files" 
