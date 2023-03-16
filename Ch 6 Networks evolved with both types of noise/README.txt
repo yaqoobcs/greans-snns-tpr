@@ -3,7 +3,7 @@ Select Genomes from the top menu
 From the drop-down list select "load and show individual files" 
 Choose the network file to load 
 Choose Yes to load model parameters from the network file
-A new individul window will open 
+A new individual window will open 
 Select windows from the top menu
 From the drop-down menu select "show genome" 
 The default view mode is Genome to generate the network select Network
