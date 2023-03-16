@@ -1,0 +1,131 @@
+digraph G {
+ratio=1;{
+	node [shape=plaintext]
+
+RU0 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+ <TR><TD><TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR>
+	<TD PORT="gene4" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">4</FONT></TD>
+	<TD PORT="gene5" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">5</FONT></TD>
+	<TD PORT="gene6" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">6</FONT></TD>
+	<TD PORT="gene7" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">7</FONT></TD>
+	<TD PORT="gene8" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">8</FONT></TD>
+	<TD PORT="gene9" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">9</FONT></TD>
+	<TD PORT="gene10" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">10</FONT></TD>
+	<TD PORT="gene11" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">11</FONT></TD>
+ </TR></TABLE></TD></TR>
+
+ <TR><TD><FONT POINT-SIZE="25">
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR><TD>
+		OP0=-70.00000
+		</TD></TR></TABLE>
+ </FONT></TD></TR>
+
+ <TR><TD><TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR>
+	<TD PORT="gene12" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">12</FONT></TD>
+	<TD PORT="gene13" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">13</FONT></TD>
+	<TD PORT="gene14" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">14</FONT></TD>
+	<TD PORT="gene15" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">15</FONT></TD>
+ </TR></TABLE>
+
+</TD></TR></TABLE>>];
+
+RU1 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+ <TR><TD><TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR>
+	<TD PORT="gene16" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">16</FONT></TD>
+	<TD PORT="gene17" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">17</FONT></TD>
+	<TD PORT="gene18" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">18</FONT></TD>
+ </TR></TABLE></TD></TR>
+
+ <TR><TD><FONT POINT-SIZE="25">
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR><TD>
+		OP1=-70.00000
+		</TD></TR></TABLE>
+ </FONT></TD></TR>
+
+ <TR><TD><TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR>
+	<TD PORT="gene19" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">19</FONT></TD>
+	<TD PORT="gene20" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">20</FONT></TD>
+	<TD PORT="gene21" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">21</FONT></TD>
+	<TD PORT="gene22" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">22</FONT></TD>
+	<TD PORT="gene23" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">23</FONT></TD>
+	<TD PORT="gene24" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">24</FONT></TD>
+	<TD PORT="gene25" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">25</FONT></TD>
+	<TD PORT="gene26" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">26</FONT></TD>
+	<TD PORT="gene27" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">27</FONT></TD>
+ </TR></TABLE>
+
+</TD></TR></TABLE>>];
+
+RU2 [label=<
+<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="0">
+ <TR><TD><TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR>
+	<TD PORT="gene28" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">28</FONT></TD>
+	<TD PORT="gene29" BGCOLOR="#70DB93"><FONT POINT-SIZE="25">29</FONT></TD>
+ </TR></TABLE></TD></TR>
+
+ <TR><TD><FONT POINT-SIZE="25">
+		<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR><TD>
+		OP2=-70.00000
+		</TD></TR></TABLE>
+ </FONT></TD></TR>
+
+ <TR><TD><TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="2"><TR>
+	<TD PORT="gene30" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">30</FONT></TD>
+	<TD PORT="gene31" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">31</FONT></TD>
+	<TD PORT="gene32" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">32</FONT></TD>
+	<TD PORT="gene33" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">33</FONT></TD>
+	<TD PORT="gene34" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">34</FONT></TD>
+	<TD PORT="gene35" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">35</FONT></TD>
+	<TD PORT="gene36" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">36</FONT></TD>
+	<TD PORT="gene37" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">37</FONT></TD>
+	<TD PORT="gene38" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">38</FONT></TD>
+	<TD PORT="gene39" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">39</FONT></TD>
+	<TD PORT="gene40" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">40</FONT></TD>
+	<TD PORT="gene41" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">41</FONT></TD>
+	<TD PORT="gene42" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">42</FONT></TD>
+	<TD PORT="gene43" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">43</FONT></TD>
+	<TD PORT="gene44" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">44</FONT></TD>
+	<TD PORT="gene45" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">45</FONT></TD>
+	<TD PORT="gene46" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">46</FONT></TD>
+	<TD PORT="gene47" BGCOLOR="#FFC0CB"><FONT POINT-SIZE="25">47</FONT></TD>
+ </TR></TABLE>
+
+</TD></TR></TABLE>>];
+
+  node [shape=ellipse, style=filled, fillcolor="#C0C0C0"]
+
+MFA0 [label=<<FONT POINT-SIZE="25">MFA0=-65.00</FONT><BR/><FONT POINT-SIZE="35">A</FONT>>];
+  node [shape=ellipse, style=filled, fillcolor="#C0C0C0"]
+
+MFA1 [label=<<FONT POINT-SIZE="25">MFA1=-65.00</FONT><BR/><FONT POINT-SIZE="35">B</FONT>>];
+  node [shape=ellipse, style=filled, fillcolor="#C0C0C0"]
+
+MFA2 [label=<<FONT POINT-SIZE="25">MFA2=-65.00</FONT><BR/><FONT POINT-SIZE="35">C</FONT>>];
+
+  node [shape=box, style=filled, fillcolor="#00FF00"]
+
+EFF0 [label=<<FONT POINT-SIZE="25">EFF0=-70.00</FONT><BR/><FONT POINT-SIZE="35">signal</FONT>>];
+
+RU0:s -> RU0:gene4:n [arrowhead=normal, weight=12.61989, style="setlinewidth(5),solid", color="#FF0000", labeldistance="1", fontsize=25, label="6.31"];
+RU2:s -> RU0:gene4:n [arrowhead=normal, weight=39.24003, style="setlinewidth(5),solid", color="#FF0000", labeldistance="1", fontsize=25, label="19.62"];
+RU1:s -> RU0:gene5:n [arrowhead=dot, weight=-0.98260, style="setlinewidth(1),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-0.49"];
+RU0:s -> RU1:gene16:n [arrowhead=normal, weight=8.34017, style="setlinewidth(5),solid", color="#FF0000", labeldistance="1", fontsize=25, label="4.17"];
+RU1:s -> RU1:gene16:n [arrowhead=normal, weight=8.23862, style="setlinewidth(5),solid", color="#FF0000", labeldistance="1", fontsize=25, label="4.12"];
+RU2:s -> RU1:gene16:n [arrowhead=normal, weight=18.84774, style="setlinewidth(5),solid", color="#FF0000", labeldistance="1", fontsize=25, label="9.42"];
+RU0:s -> RU2:gene28:n [arrowhead=normal, weight=1.13737, style="setlinewidth(1),solid", color="#FF0000", labeldistance="1", fontsize=25, label="0.57"];
+RU1:s -> RU2:gene28:n [arrowhead=dot, weight=-55.78759, style="setlinewidth(5),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-27.89"];
+RU2:s -> RU2:gene28:n [arrowhead=dot, weight=-33.60669, style="setlinewidth(5),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-16.80"];
+
+MFA0 -> RU0:gene4:n [arrowhead=dot, weight=-22.05037, style="setlinewidth(5),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-11.03"];
+MFA1 -> RU0:gene5:n [arrowhead=dot, weight=-2.50763, style="setlinewidth(2),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-1.25"];
+MFA2 -> RU0:gene6:n [arrowhead=normal, weight=8.58315, style="setlinewidth(5),solid", color="#FF0000", labeldistance="1", fontsize=25, label="4.29"];
+MFA0 -> RU1:gene17:n [arrowhead=normal, weight=2.35708, style="setlinewidth(2),solid", color="#FF0000", labeldistance="1", fontsize=25, label="1.18"];
+MFA1 -> RU1:gene18:n [arrowhead=dot, weight=-9.60381, style="setlinewidth(5),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-4.80"];
+MFA1 -> RU2:gene29:n [arrowhead=normal, weight=1.91910, style="setlinewidth(1),solid", color="#FF0000", labeldistance="1", fontsize=25, label="0.96"];
+RU0:s -> EFF0 [arrowhead=normal, weight=8.71906, style="setlinewidth(5),solid", color="#FF0000", labeldistance="1", fontsize=25, label="4.36"];
+RU1:s -> EFF0 [arrowhead=dot, weight=-34.26924, style="setlinewidth(5),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-17.13"];
+RU2:s -> EFF0 [arrowhead=dot, weight=-16.61407, style="setlinewidth(5),solid", color="#0000FF", labeldistance="1", fontsize=25, label="-8.31"];
+}
+}
